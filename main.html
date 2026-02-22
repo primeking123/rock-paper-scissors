@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+       <h1>Rock Paper Scissors</h1>
+
+      <div class="scoreboard">
+              
+            <p style="font-size: large;">Player:</p>
+            <span id="player-score">0</span>
+            
+            <p style="font-size: large;">CPU:</p>
+            <span id="cpu-score">0</span>
+            
+          </div>
+          <div class="cpu-display">
+                CPU Chose: <span id="cpu-hand">?</span>
+          </div>
+            <div id="results"> Choose your weapon!</div>
+
+           <div class="choices">
+            <button id="rock" class="choice-btn" data-emoji="🪨" onclick="makeMove('rock')">Rock</button>
+            <button id="paper" class="choice-btn" data-emoji="📄" onclick="makeMove('paper')">Paper</button>
+            <button id="scissors" class="choice-btn" data-emoji="✂️" onclick="makeMove('scissors')">Scissors</button>
+
+            </div>
+           <button id="reset">Reset</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
